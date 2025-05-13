@@ -14,8 +14,8 @@ const HomePage = () => {
       
       {/* Mobile Search Bar - only visible on small screens */}
       <div className="lg:hidden py-8 px-4 bg-secondary-100">
-        <div className="container-custom">
-          <SearchBar />
+        <div className="container-custom ">
+          <SearchBar  />
         </div>
       </div>
       

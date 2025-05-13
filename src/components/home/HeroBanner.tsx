@@ -4,7 +4,7 @@ import SearchBar from '../common/SearchBar';
 
 const HeroBanner = () => {
   return (
-    <div className="relative h-hero md:h-hero-mobile lg:h-hero overflow-hidden">
+    <div className="relative h-hero md:h-hero-mobile lg:h-100vh ">
       {/* Hero background image */}
       <div className="absolute inset-0 z-0">
         <img
@@ -16,7 +16,7 @@ const HeroBanner = () => {
       </div>
       
       {/* Hero content */}
-      <div className="container-custom h-full flex flex-col justify-center relative z-10 pt-16">
+      <div className="container-custom h-full flex flex-col justify-center relative z-10 pt-0">
         <div className="max-w-2xl text-white animate-fade-in">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
             Find Your Dream Home in Lahore
@@ -24,7 +24,7 @@ const HeroBanner = () => {
           <p className="text-xl md:text-2xl mb-8 text-gray-200 font-light">
             Discover premium properties in DHA & Bahria Town with UrbanNest Realty
           </p>
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-wrap gap-4 mb-10">
             <Link to="/properties" className="btn btn-accent btn-lg">
               Browse Properties
             </Link>

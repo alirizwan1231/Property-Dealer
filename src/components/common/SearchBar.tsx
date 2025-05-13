@@ -32,7 +32,7 @@ const SearchBar = ({ onClose, isHero = false }: SearchBarProps) => {
   };
 
   return (
-    <div className={`${isHero ? 'bg-white/90 backdrop-blur-md' : 'bg-white'} rounded-lg shadow-lg p-4 md:p-6`}>
+    <div className={`${isHero ? 'bg-white/90 backdrop-blur-md' : 'bg-white'} rounded-lg shadow-lg  md:p-6 mt-10 `}>
       <div className="flex justify-between items-center mb-4">
         <h3 className={`text-xl font-medium ${isHero ? 'text-primary-600' : ''}`}>Find Your Dream Home</h3>
         {onClose && (
